@@ -4,7 +4,7 @@ This documentation was created so that we can demonstrate the flow of **uts** an
 
 ## uts
 
-fill description here
+Uts stands for User Trait Service and is used for UP program
 
 ![uts diagram](https://github.com/SevenOS/diagrams/blob/main/aws/bfa/uts/uts.drawio.jpg)
 
@@ -43,7 +43,7 @@ fill description here
 
 ## uas
 
-fill description here
+Uas stands for user attributes service, and is used to profile the user through the Iterable
 
 ![uts diagram](https://github.com/SevenOS/diagrams/blob/main/aws/bfa/uts/uas.drawio.jpg)
 
