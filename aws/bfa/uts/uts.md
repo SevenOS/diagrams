@@ -6,7 +6,7 @@ This documentation was created so that we can demonstrate the flow of **uts** an
 
 Uts stands for User Trait Service and is used for UP program
 
-![uts diagram](https://github.com/SevenOS/diagrams/blob/main/aws/bfa/uts/uts.drawio.jpg)
+![uts diagram](https://github.com/SevenOS/diagrams/blob/main/aws/bfa/uts/uts.jpg)
 
 ### Production
 
