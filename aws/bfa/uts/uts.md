@@ -8,6 +8,22 @@ This documentation was created so that we can demonstrate the flow of **uts** an
 
 ![uts diagram](https://github.com/SevenOS/diagrams/blob/main/aws/bfa/uts/uts.drawio.jpg)
 
+| Dag                           | Task                                     |    Source            |    Sink.                              |
+| :----:                        |    :----:                                |     :----:           |     :----:                            |
+| data.ocean.subscriptions      | subscriptions_lifecycle                  | subscriptions-pg12   | services.uts.lifecycle                |
+| data.ocean.subscriptions      | subscriptions_cycle                      | subscriptions-pg12   | services.uts.lifecycle                |
+| data.ocean.subscriptions      | subscriptions_subscription_item.         | subscriptions-pg12   | services.uts.membership               |
+| data.ocean.subscriptions      | subscriptions_subscription               | subscriptions-pg12   | services.uts.membership               |
+| data.ocean.subscriptions      | subscriptions_personalized_product_price | subscriptions-pg12   | services.uts.membership               |
+| data.ocean.subscriptions      | subscriptions_personalized_product       | subscriptions-pg12   | services.uts.membership               |
+| data.ocean.ipsy               | ipsy_physical_address                    | ipsy-db              | services.uts.membership               |
+| data.ocean.subscriptions      | subscriptions_subscription               | subscriptions-pg12   | services.uts.physical_address         |
+| data.ocean.ipsy               | ipsy_physical_address                    | ipsy-db              | services.uts.physical_address         |
+| data.ocean.subscriptions      | subscriptions_subscription               | subscriptions-pg12   | services.uts.refreshment_membership   |
+| data.ocean.ipsy               | ipsy_physical_address                    | ipsy-db              | services.uts.refreshment_membership   |
+
+
+
 ## uas
 
 
