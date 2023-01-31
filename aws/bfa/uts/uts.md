@@ -10,17 +10,17 @@ This documentation was created so that we can demonstrate the flow of **uts** an
 
 | Dag                           | Task                                     |    Source db         |    Sink Dag                           | Dag Update Hour (utc) | Sink Dag Update Hour (utc) |
 | :----:                        |    :----:                                |     :----:           |     :----:                            | :----: | :----: |
-| data.ocean.subscriptions      | subscriptions_lifecycle                  | subscriptions-pg12   | services.uts.lifecycle                | 10AM | 07AM |
-| data.ocean.subscriptions      | subscriptions_cycle                      | subscriptions-pg12   | services.uts.lifecycle                | 10AM | 07AM |
-| data.ocean.subscriptions      | subscriptions_subscription_item.         | subscriptions-pg12   | services.uts.membership               | 10AM | 06AM |
-| data.ocean.subscriptions      | subscriptions_subscription               | subscriptions-pg12   | services.uts.membership               | 10AM | 06AM |
-| data.ocean.subscriptions      | subscriptions_personalized_product_price | subscriptions-pg12   | services.uts.membership               | 10AM | 06AM |
-| data.ocean.subscriptions      | subscriptions_personalized_product       | subscriptions-pg12   | services.uts.membership               | 10AM | 06AM |
-| data.ocean.ipsy               | ipsy_physical_address                    | ipsy-db              | services.uts.membership               | 10AM | 06AM |
-| data.ocean.subscriptions      | subscriptions_subscription               | subscriptions-pg12   | services.uts.physical_address         | 10AM | 07AM |
-| data.ocean.ipsy               | ipsy_physical_address                    | ipsy-db              | services.uts.physical_address         | 10AM | 07AM |
-| data.ocean.subscriptions      | subscriptions_subscription               | subscriptions-pg12   | services.uts.refreshment_membership   | 10AM | 06:30AM |
-| data.ocean.ipsy               | ipsy_physical_address                    | ipsy-db              | services.uts.refreshment_membership   | 10AM | 06:30AM |
+| data.ocean.subscriptions      | subscriptions_lifecycle                  | subscriptions-pg12   | services.uts.lifecycle                | 10:00AM | 07:00AM |
+| data.ocean.subscriptions      | subscriptions_cycle                      | subscriptions-pg12   | services.uts.lifecycle                | 10:00AM | 07:00AM |
+| data.ocean.subscriptions      | subscriptions_subscription_item.         | subscriptions-pg12   | services.uts.membership               | 10:00AM | 06:00AM |
+| data.ocean.subscriptions      | subscriptions_subscription               | subscriptions-pg12   | services.uts.membership               | 10:00AM | 06:00AM |
+| data.ocean.subscriptions      | subscriptions_personalized_product_price | subscriptions-pg12   | services.uts.membership               | 10:00AM | 06:00AM |
+| data.ocean.subscriptions      | subscriptions_personalized_product       | subscriptions-pg12   | services.uts.membership               | 10:00AM | 06:00AM |
+| data.ocean.ipsy               | ipsy_physical_address                    | ipsy-db              | services.uts.membership               | 10:00AM | 06:00AM |
+| data.ocean.subscriptions      | subscriptions_subscription               | subscriptions-pg12   | services.uts.physical_address         | 10:00AM | 07:00AM |
+| data.ocean.ipsy               | ipsy_physical_address                    | ipsy-db              | services.uts.physical_address         | 10:00AM | 07:00AM |
+| data.ocean.subscriptions      | subscriptions_subscription               | subscriptions-pg12   | services.uts.refreshment_membership   | 10:00AM | 06:30AM |
+| data.ocean.ipsy               | ipsy_physical_address                    | ipsy-db              | services.uts.refreshment_membership   | 10:00AM | 06:30AM |
 
 
 
