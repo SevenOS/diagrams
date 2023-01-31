@@ -24,6 +24,21 @@ This documentation was created so that we can demonstrate the flow of **uts** an
 | data.ocean.subscriptions      | subscriptions_subscription               | subscriptions-pg12   | services.uts.refreshment_membership   | 10:00AM | 06:30AM |
 | data.ocean.ipsy               | ipsy_physical_address                    | ipsy-db              | services.uts.refreshment_membership   | 10:00AM | 06:30AM |
 
+### Staging
+
+| Dag                           | Task                                     |    Source db         |    Sink Dag                           | Dag Update Hour (utc) | Sink Dag Update Hour (utc) |
+| :----:                        |    :----:                                |     :----:           |     :----:                            | :----: | :----: |
+| data.ocean.subscriptions      | subscriptions_lifecycle                  |    | services.uts.lifecycle                | 00:00AM | 00:00AM |
+| data.ocean.subscriptions      | subscriptions_cycle                      |    | services.uts.lifecycle                | 00:00AM | 00:00AM |
+| data.ocean.subscriptions      | subscriptions_subscription_item.         |    | services.uts.membership               | 00:00AM | 00:00AM |
+| data.ocean.subscriptions      | subscriptions_subscription               |    | services.uts.membership               | 00:00AM | 00:00AM |
+| data.ocean.subscriptions      | subscriptions_personalized_product_price |    | services.uts.membership               | 00:00AM | 00:00AM |
+| data.ocean.subscriptions      | subscriptions_personalized_product       |    | services.uts.membership               | 00:00AM | 00:00AM |
+| data.ocean.ipsy               | ipsy_physical_address                    |    | services.uts.membership               | 00:00AM | 00:00AM |
+| data.ocean.subscriptions      | subscriptions_subscription               |    | services.uts.physical_address         | 00:00AM | 00:00AM |
+| data.ocean.ipsy               | ipsy_physical_address                    |    | services.uts.physical_address         | 00:00AM | 00:00AM |
+| data.ocean.subscriptions      | subscriptions_subscription               |    | services.uts.refreshment_membership   | 00:00AM | 00:00AM |
+| data.ocean.ipsy               | ipsy_physical_address                    |    | services.uts.refreshment_membership   | 00:00AM | 00:00AM |
 
 
 ## uas
