@@ -1,6 +1,6 @@
-# uts & uas timeline
+# uts timeline
 
-This documentation was created so that we can demonstrate the flow of **uts** and **uas** jobs
+This documentation was created so that we can demonstrate the flow of **uts** jobs
 
 ## uts
 
@@ -39,13 +39,6 @@ Uts stands for User Trait Service and is used for UP program
 | data.ocean.ipsy               | ipsy_physical_address                    |  db-ro.staging.ipsy.com.ipsy                           | services.uts.physical_address         | 10:00AM | 07:30AM |
 | data.ocean.subscriptions      | subscriptions_subscription               |  db-subscriptions-pg12.staging.ipsy.com.subscriptions  | services.uts.refreshment_membership   | 10:00AM | 06:30AM |
 | data.ocean.ipsy               | ipsy_physical_address                    |  db-ro.staging.ipsy.com.ipsy                           | services.uts.refreshment_membership   | 10:00AM | 06:30AM |
-
-
-## uas
-
-Uas stands for user attributes service, and is used to profile the user through the Iterable
-
-![uts diagram](https://github.com/SevenOS/diagrams/blob/main/aws/bfa/uts/uas.drawio.jpg)
 
 Environments:
 - [Staging](https://0e5dd8e5-ae22-4f7c-9edb-1a22f1ab84ee.c27.us-east-1.airflow.amazonaws.com/home)
