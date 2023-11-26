@@ -1,4 +1,4 @@
-<mxfile modified="2023-11-26T14:32:05.353Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="i7ctyUlunA0wwz_2-X98" version="22.1.4" type="github" pages="2">
+<mxfile modified="2023-11-26T14:40:14.947Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SDQibESC3v3pxh2CCUUR" version="22.1.4" type="github" pages="2">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="streaming-pipeline">
     <mxGraphModel dx="1525" dy="1758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -81,8 +81,19 @@
         <mxCell id="aOpD0vIyU-k7DDMFV_yL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="aOpD0vIyU-k7DDMFV_yL-14" source="aOpD0vIyU-k7DDMFV_yL-8" target="gEiQj9EhfGUvuWGg22df-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aOpD0vIyU-k7DDMFV_yL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aOpD0vIyU-k7DDMFV_yL-14" source="aOpD0vIyU-k7DDMFV_yL-5" target="aOpD0vIyU-k7DDMFV_yL-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="aOpD0vIyU-k7DDMFV_yL-16" value="Datadog&#xa;Receiving all the stream metrics" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://mma.prnewswire.com/media/1434744/Datadog_Logo.jpg;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-146" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="aOpD0vIyU-k7DDMFV_yL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="aOpD0vIyU-k7DDMFV_yL-8" target="aOpD0vIyU-k7DDMFV_yL-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="-375" />
+              <mxPoint x="650" y="-239" />
+              <mxPoint x="769" y="-239" />
+              <mxPoint x="769" y="-160" />
+              <mxPoint x="779" y="-160" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
